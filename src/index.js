@@ -1,6 +1,10 @@
+import { projectRender, projects } from "./modules/projectRender";
 import "./styles.css";
-import { hello } from "./modules/greetings";
+//import { hello } from "./modules/greetings";
 
 
 
-hello()
+projectRender(projects);
+//hello()
+
+
