@@ -8,3 +8,5 @@ calculator
 etch-sketch
 battle-ship
 <span class="material-symbols-outlined">open_in_new</span>
+
+<span class="material-symbols-outlined">call</span>
