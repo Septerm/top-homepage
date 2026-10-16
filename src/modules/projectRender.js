@@ -1,17 +1,25 @@
-import pic1   from "../images/battleship_app.webp";
+import pic1   from "../images/Kokokaribidesigns.webp";
 import pic2   from "../images/weather_forcast_app.webp";
 import pic3   from "../images/todo_list_app.webp";
 import pic4   from "../images/restaurant_webpage.webp";
-import pic5   from "../images/library_app.webp";
-import pic6   from "../images/calculator_app.webp";
+import pic5   from "../images/868Krew.webp";
+import pic6   from "../images/SimpleCv.webp";
 
 export const projects = [
   {
-    title: "Battleship Game",
+    title: "Jewelry E-Commerce Site",
     image: pic1,
-    description: "A web version to the classic battleship game where you played against the computer, made using html/css and javascript DOM manipulation, also uses webpakage building and jest for testing gameboard functionality.",
-    githubUrl: "https://github.com/Septerm/top-battleship",
-    liveUrl: "https://septerm.github.io/top-battleship/"
+    description: "A e-commerce built with wordpress using woocommerce plugin for a local handcrafted jewelry store in Trinidad and Tobago",
+    githubUrl: "https://kokokaribidesigns.com/",
+    liveUrl: "https://kokokaribidesigns.com/"
+  },
+
+  {
+    title: "Apparel E-commerce Site",
+    image: pic5,
+    description: "A frontend template built in React for a modern apparel store.",
+    githubUrl: "https://github.com/Septerm/top-shopping-cart",
+    liveUrl: "https://868krew.netlify.app/"
   },
 
   {
@@ -34,24 +42,18 @@ export const projects = [
     title: "Restaurant Page",
     image: pic4,
     description: "A simple restaurant webpage that uses tab browsing to switch between the home, menu and about page, it also uses javascript mainly to render the entire website and webpackage to build page.",
-    githubUrl: "https://github.com/yourusername/battleship",
-    liveUrl: "https://yourusername.github.io/battleship"
+    githubUrl: "https://github.com/Septerm/restaurant-page",
+    liveUrl: "https://septerm.github.io/restaurant-page/"
   },
 
-  {
-    title: "Library App",
-    image: pic5,
-    description: "A simple library application that allows use to keep track of the book that you have read, planning to read or in the process of reading, made using html/css and javascript.",
-    githubUrl: "https://github.com/Septerm/Odin-Library",
-    liveUrl: "https://septerm.github.io/Odin-Library/"
-  },
+
 
   {
-    title: "Calculator App",
+    title: "CV Generation App",
     image: pic6,
-    description: "A simple calculator application, that allows you to perform basic arithmetic calculations in the browser, with a user friendly interface, made using html/css and javascript.",
-    githubUrl: "https://github.com/Septerm/calculator",
-    liveUrl: "https://septerm.github.io/calculator/"
+    description: "A CV generation application that collects data about the user and then also allows the user to both preview and then print the genrated CV based on the users specifications built using React.",
+    githubUrl: "https://github.com/Septerm/top-cv-application",
+    liveUrl: "https://septerm-top-cv-application.netlify.app/"
   },
 
   
